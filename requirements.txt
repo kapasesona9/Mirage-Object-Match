@@ -1,0 +1,10 @@
+flask
+pillow
+numpy
+# your existing model packages stay as they are:
+#   cactus, insightface, onnxruntime  ->  for NVIDIA GPU use onnxruntime-gpu INSTEAD of onnxruntime
+# optional, only used for the CPU/RAM/GPU/VRAM numbers in the "performance" block:
+psutil
+nvidia-ml-py
+# benchmark.py only:
+requests
